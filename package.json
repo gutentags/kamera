@@ -1,6 +1,6 @@
 {
   "name": "kamera",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Ensures that only one component has focus",
   "main": "kamera.js",
   "scripts": {
