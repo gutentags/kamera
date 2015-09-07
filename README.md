@@ -17,7 +17,7 @@ var scope = new Scope();
 scope.attention = new Kamera();
 ```
 
-Then, each widget in the application many use `attention.focusOn(this)` in its
+Then, each widget in the application many use `attention.takeFocus(this)` in its
 focus method to ensure that `component.blur` is called on the prior focal
 component whenever it takes the focus.
 
@@ -30,11 +30,11 @@ function Widget(body, scope) {
 
 Widget.prototype.focus = function focus() {
     this.element.classList.add('focus');
-    this.attention.focusOn(this);
+    this.attention.takeFocus(this);
 };
 
 // This can be called manually, or implicitly called by the focus method of
-// another component by way of attention.focusOn.
+// another component by way of attention.takeFocus.
 Widget.prototype.blur = function blur() {
     this.element.classList.remove('focus');
 };
