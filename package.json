@@ -1,0 +1,24 @@
+{
+  "name": "kamera",
+  "version": "0.0.0",
+  "description": "Ensures that only one component has focus",
+  "main": "kamera.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gutentags/kamera.git"
+  },
+  "keywords": [
+    "gutentag",
+    "focus",
+    "component"
+  ],
+  "author": "Kris Kowal <kris@cixar.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gutentags/kamera/issues"
+  },
+  "homepage": "https://github.com/gutentags/kamera"
+}
